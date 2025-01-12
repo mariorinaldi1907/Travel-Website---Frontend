@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+            <link rel="stylesheet" href="index.css">
+            <title>TravelDestination</title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+          </head>
+  </head>
+  <body>
+    <!--Header code-->
+    <header>
+      <a href="index.html" class="brand">Travel Destination </a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+          <div class="navigation-items">
+              <a href="Adventure.html">Adventure</a>
+              <a href="Family.html">Family Inspiration</a>
+              <a href="Lesiure.html">Lesuire</a>
+              <a href="Exciting.html">Exciting News</a>
+                <input type="text" class="searchinput" placeholder="Type your search">
+                <button type="button" class="loginsign" id="loginBtn">Login</button>
+                <button type="button" class="signupbtn" id="signupBtn">Sign-up</button>
+          </div>
+  </header>
+  <!--login form code container -->
+  <!-- ifsf- login form and signup form-->
+  <div id="loginForm" class="ifsf">
+    <div class="ifsfcontents">
+        <span class="ifsfclose" id="closeLoginBtn">&times;</span>
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+
+<!-- Sign-up pop-up form container -->
+<!-- ifsf- login form and signup form-->
+<div id="signupForm" class="ifsf">
+    <div class="ifsfcontents">
+        <span class="ifsfclose" id="closeSignupBtn">&times;</span>
+        <h2>Sign-up</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign-up</button>
+        </form>
+    </div>
+</div>
+
+  <section>
+    <!-- Information on Main Attractions -->
+    <div class="Generalheading">
+        <h1>LATEST STORIES</h1>
+        <div class="subheading">
+            <span>
+              <a href="#" id="subscribeLink">Subscribe</a>
+                for full access to read stories from Travel The World.
+            </span>
+        </div>
+    </div>
+    <div id="subscribeForm" class="modal">
+      <div class="modalcontent">
+          <span class="close" id="closeBtn">&times;</span>
+          <h2>Subscribe to Our Newsletter</h2><br>
+          <img src="imagesreal/europe.webp">
+          <p>Get the latest updates and news delivered to your inbox.</p><br>
+          <form>
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit">Subscribe</button>
+          </form>
+      </div>
+  </div>
+    <section>
+      <!--Code for the left side of the screen and also right side of the screen -->
+      <div class="maincontainer">
+        <!--this is the left side with the today's news -->
+        <div class="leftcontainer">
+          <div class="Today News">
+            <h1>Today's News</h1>
+          </div>
+          <div class="article1">
+            <img src="imagesreal/dubai.webp" alt="">
+            <h3>FAMILY TRAVEL</h3>
+            <p>The best things to do in Dubai<br>
+              From the essentials to local’s insider tips and new opening</p>
+          </div>
+          <div class="article1">
+            <img src="imagesreal/ph4.webp" alt="">
+            <h3>SUSTAINABLE & ECO-FRIENDLY</h3>
+            <p>How to travel better: a beginner's guide to sustainable travel in 2023 and beyond</p>
+          </div>
+          <div class="article1">
+            <img src="imagesreal/food3.webp" alt="">
+            <h3>FOOD AND CULINARY TRAVEL</h3>
+            <p>How to Plan a Food Trip<BR>
+            </p>
+          </div>
+          <div class="article1">
+            <img src="imagesreal/romanticgetaway.webp" alt="">
+            <h3>ROMATIC GETAWAYS</h3>
+            <p>The Best Weekend Getaways<br>
+              Want to spice things up in your relationship? Then it's time to get out of town.</p>
+          </div>
+          <div class="article1">
+            <img src="imagesreal/roadtrip1.webp" alt="">
+            <h3>ROAD TRIPS</h3>
+            <p>13 Best Road Trips From NYC<br>
+              How to escape the city without getting on a plane.</p>
+          </div>
+          <a href="Exciting.html">Read More</a>
+        </div>
+          <!--this is the right side with the today's news -->
+
+        <div class="rightcontainer">
+          <div class="headarticle1">
+            <img src="imagesreal/fiji4.webp" alt="">
+            <div class="article-text">
+            <h3>“Fiji is a place that drums on your senses, and reminds you that you are alive”: What it’s really like to visit the world’s friendliest island</h3>
+              <p> By Maggie ShipStead<br>
+                8 April 2023</p>
+            <a href="Family.html">Read More</a>
+          </div>
+          </div>
+          <div class="headarticle">
+            <img src="imagesreal/great barrier reef.webp" alt="">
+            <div class="article-text">
+              <h3>GREEN TRAVEL</h3>
+              <p>How to Visit the Great Barrier Reef — and Help Preserve It While You're There<br><br>
+                By KERIA ALEXANDER</p>
+              <a href="Exciting.html">Read More</a>
+            </div> 
+          </div>
+          <div class="headarticle">
+            <img src="imagesreal/vietnam.webp" alt="">
+            <div class="article-text">
+              <h3>SOLO TRAVEL</h3>
+              <p>I Backpacked Solo Through Vietnam — How It Helped Me Heal<br><br>
+              BY SOPHIE MENDEL</p>
+              <a href="Exciting.html">Read More</a>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!--The special portion that has a pop up over each country displayed -->
+    <section>
+      <div class="explorepics">
+        <h2>Popular Travel Destinations</h2>
+        <div class="explorepics1">
+          <!-- Image container 1 -->
+          <div class="destination">
+            <img class="imagec" src="imagesreal/paris.webp" alt="">
+            <div class="btncontain">
+              <button class="openPopupButton" onclick="openPopup('news1')"><strong>FIND OUT MORE</strong></button>
+            </div>
+          </div>
+    
+          <!-- Image container 2 -->
+          <div class="destination">
+            <img class="imagec" src="imagesreal/machupichu2.webp" alt="">
+            <div class="btncontain">
+              <button class="openPopupButton" onclick="openPopup('news2')"><strong>FIND OUT MORE</strong></button>
+            </div>
+          </div>
+    
+          <!-- Image container 3 -->
+          <div class="destination">
+            <img class="imagec" src="imagesreal/greece2.webp" alt="">
+            <div class="btncontain">
+              <button class="openPopupButton" onclick="openPopup('news3')"><strong>FIND OUT MORE</strong></button>
+            </div>
+          </div>
+    
+          <!-- Image container 4 -->
+          <div class="destination">
+            <img class="imagec" src="imagesreal/singapore.webp" alt="">
+            <div class="btncontain">
+              <button class="openPopupButton" onclick="openPopup('news4')"><strong>FIND OUT MORE</strong></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pop-up container for Image 1 -->
+    <div class="countrynews" id="news1">
+      <div class="newsContent">
+        <img src="imagesreal/paris.webp" alt="Paris">
+        <h3>Paris, France</h3>
+        <p>Did you know that the Eiffel Tower, Paris's iconic landmark, has a secret apartment at the top? Gustave Eiffel, the tower's engineer, used it as his private hideaway, and now, you can visit it for stunning views of the city!<br><br>
+
+          The Louvre Museum, home to the famous Mona Lisa, features a modern glass pyramid entrance designed by architect I. M. Pei. It's like stepping into a work of art before exploring the treasures inside!<br><br>
+          
+          Beware of "Paris Syndrome"! Some tourists experience this psychological condition when they realize that Paris doesn't always match their romanticized expectations. It's a real "pinch me" moment for many.</p>
+        <button class="closePopupButton" onclick="closePopup('news1')">Close</button>
+      </div>
+    </div>
+    
+    <!-- Pop-up container for Image 2 -->
+    <div class="countrynews" id="news2">
+      <div class="newsContent">
+        <img src="imagesreal/machupichu2.webp" alt="Machu Picchu">
+        <h3>Machu Picchu, Peru</h3>
+        <p>Machu Picchu, the "Lost City of the Incas," was hidden away in the Andes Mountains and remained undiscovered by the Spanish conquistadors. It's like stepping into a real-life treasure hunt!<br><br>
+
+          Ready for an adventure? The Inca Trail is a famous hiking route leading to Machu Picchu. Along the way, you'll encounter breathtaking scenery and ancient ruins, making it an epic journey.<br><br>
+          
+          Machu Picchu is not just any ancient site; it's a UNESCO World Heritage Site and was voted one of the New Seven Wonders of the World in 2007. It's truly a world wonder!.</p>
+        <button class="closePopupButton" onclick="closePopup('news2')"><strong>Close</strong></button>
+      </div>
+    </div>
+    
+    <!-- Pop-up container for Image 3 -->
+    <div class="countrynews" id="news3">
+      <div class="newsContent">
+        <img src="imagesreal/greece2.webp" alt="Greece">
+        <h3>Greece</h3>
+        <p>Greece, often considered the birthplace of democracy, introduced this groundbreaking concept in the 5th century BC in the city of Athens. It's where the democratic dream began!<br><br>
+
+          Explore ancient ruins in Greece, like the Parthenon in Athens and the mystical city of Delphi, known for its oracle and ancient athletic games. These ancient sites hold stories from a bygone era.<br><br>
+          
+          Greece isn't just a country; it's a collection of over 6,000 islands and islets scattered across the Aegean and Ionian Seas. Island-hopping here is like a dream come true for any traveler.</p>
+        <button class="closePopupButton" onclick="closePopup('news3')">Close</button>
+      </div>
+    </div>
+    
+    <!-- Pop-up container for Image 4 -->
+    <div class="countrynews" id="news4">
+      <div class="newsContent">
+        <img src="imagesreal/singapore.webp" alt="Singapore">
+        <h3>Singapore</h3>
+        <p>Singapore, often referred to as the "Lion City," is a modern city-state that seamlessly blends tradition with innovation. Its stunning skyline features futuristic architecture, including the iconic Marina Bay Sands hotel, which boasts an incredible rooftop infinity pool with sweeping views of the city.<br><br>
+
+          This multicultural hub celebrates diversity through vibrant street markets, such as Chinatown, Little India, and Kampong Glam, where you can savor delicious cuisine and immerse yourself in different cultures.<br><br>
+          
+          Singapore is also known for its lush green spaces, like the Singapore Botanic Gardens and the awe-inspiring Gardens by the Bay, home to towering Supertrees and mesmerizing light shows. It's a city that invites you to explore its rich tapestry of experiences, from cutting-edge technology to centuries-old traditions.</p>
+        <button class="closePopupButton" onclick="closePopup('news4')">Close</button>
+      </div>
+    </div>
+    
+<!--Represents the code for the sub-main articles  -->
+<!--I have split it into 3 parts right, left and centre-->
+<section>
+      <div class="biggestcontainer">
+        <!--Left side with 2 articles -->
+        <div class="leftcont">
+         
+          <div class="article2">
+            <img src="imagesreal/thai resort.webp" alt="">
+            <div class="articletexts">
+              <h3>The family-friendly beachside Thai resort to have on your radar</h3>
+              <p>The award-winning properties in the Royal Cliff Hotels Group are the ideal backdrop for a family holiday in Pattaya, Thailand</p><br><br>
+              <a href="Family.html">Read More</a>
+            </div>  
+          </div>
+         
+          <div class="article2">
+            <img src="imagesreal/machu pichu.webp" alt="">
+            <div class="articletexts">
+              <h3>How to Travel to Machu Picchu?</h3>
+              <p>Don’t get lost when you visit the Lost City of the Incas.</p><br><br>
+              <a href="Family.html">Read More</a>
+            </div>  
+          </div>
+        </div>
+        <!--centre with one article -->
+        <div class="centrecont">
+          
+          <div class="mainarticle">
+            <img src="imagesreal/castle-themepark.webp" alt="">
+            <div class="maintext">
+              <h3>The Best Times to Visit Disneyland for Fewer Crowds, Gorgeous Weather, and Lower Prices</h3>
+              <p>Planning a trip to the Happiest Place on Earth? Here are the best times to go to Disneyland.<br>
+                By Carly Caramanna
+              </p><br><br>
+              <a href="Family.html">Read More</a>
+            </div>  
+          </div>
+        </div>
+       <!-- right side with 2 articles-->
+        <div class="rightcont">
+          <div class="article2">
+            <img src="imagesreal/baby on plane .webp" alt="">
+            <div class="articletexts">
+              <h3>How to travel with a baby or toddler according to an expert</h3>
+              <p>Having children shouldn’t mean your travel life has to end. From flying to eating on the go, here's how to travel with a baby or toddler</p><br>
+              <a href="Family.html">Read More</a>
+            </div>  
+          </div>
+         
+          <div class="article2">
+            <img src="imagesreal/floridasprings.webp" alt="">
+            <div class="articletexts">
+              <h3>Cool Water and a Slow Pace on Florida’s ‘Spring Runs’</h3>
+              <p>Underground springs create short, clear creeks in the state’s interior, and a paddle board is the perfect way to explore them.</p><br>
+              <a href="Family.html">Read More</a>
+            </div>  
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <!--footer code -->
+    <footer class="site-footer">
+      <div class="footer-container">
+          <div class="footer-logo">
+              <i class="fas fa-globe"></i>
+              <span>Travel Destination</span>
+          </div>
+          <div class="footer-social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+      </div>
+      <div class="footer-info">
+          <div class="footer-about">
+              <p>Welcome to Travel Destination, your gateway to unforgettable adventures around the world!</p><br>
+              <p>At Travel Destination, we believe that every journey is a story waiting to be told. Our mission is to inspire and empower travelers of all kinds to explore new horizons, create lasting memories, and embrace the world's diverse cultures.</p><br>
+              <p>What sets us apart is our unwavering passion for travel. Our team of avid explorers and adventure seekers has collectively visited over 100 countries, from the bustling streets of Tokyo to the serene beaches of Bali.</p>
+             
+          </div>
+          <div class="footer-links">
+              <p>We're here to share our experiences, insider tips, and hidden gems with you, whether you're a solo traveler, a family looking for inspiration, or someone seeking the thrill of a new adventure.</p><br>
+              <p>Join us as we embark on a journey to discover the extraordinary. Let's make every trip an unforgettable chapter in your travel story.</p><br>
+          </div>
+          <div class="footer-contact">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="Adventure.html">Adventures</a></li>
+                  <li><a href="Exciting.html">Exciting News</a></li>
+                  <li><a href="Lesiure.html">Lesuire</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul><br><br>
+              <h3>Contact Us</h3>
+              <p>Email: info@traveldestination.com</p>
+              <p>Phone: +1 (143) 456-5393</p>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2023 Travel Destination. All rights reserved.
+      </div>
+  </footer>
+
+    <script src="index.js"></script>
+  </body>
+  </html>
